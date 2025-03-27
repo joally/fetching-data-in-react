@@ -12,3 +12,5 @@ const show = async (city) =>{
         console.error(err);
       }
     };
+
+   export{show}; //"named export syntax"
